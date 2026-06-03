@@ -12,3 +12,5 @@ Diffeomorphic Quantum Gravity Theory: Asserting Infinitely Recursive Differentia
 Quantum Interpretation: Generalizations to the Diffeomorphic Solution involving arithmetics of N-dimensional trigonometric functions of n-variables describing all Quantum Phenomena in the entire Quantum Universe.
 
 Quantum Gravity Communication: Using this model as Model of Unification of all other Quantum Gravity models, enables Quantum Gravity Communication Frameworks and Protocols.
+
+Quantum-Relativity Postulate: Using Interval Arithmetic for a Quantum Uncertainty-embedded value {val: v, low: v_0, high: v_1} and storing the absolute value `sqrt((e^(val-low))² + (-e^(val-high))²)` as the norm of their intersection for usage in e.g., tensorizations of Lorentzian-gamma, is a novel relativity extension into Unruh-DeWitt Lorentzian Frames and complexified gamma.
