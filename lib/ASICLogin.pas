@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ExtCtrls, StdCtrls,
-  Buttons, ComCtrls, Menus, ASIC, ASICPrompter;
+  Buttons, ComCtrls, Menus, ASIC, ASICPrompter, FollowerInstinct_FFI;
 
 type
 
@@ -98,10 +98,21 @@ begin
 end;
 
 procedure TLogin.LoginPanelClick(Sender: TObject);
+var
+  DecodedOutput: Byte;
+  OmegaVal: QWord;
 begin
   Self.Hide();
   Cell.PROVIDER := Self.ProviderComboBox.Text;
   Cell.IDENTIFIER := Self.IdentifierComboBox.Text;
+  
+  // FFI Logic test
+  OmegaVal := instinct_calculate_omega(10);
+  if instinct_ecc_decode(10, DecodedOutput) then
+  begin
+      // Logic handled via Rust
+  end;
+
   if Prompter.ShowModal = mrYes then
   begin
 

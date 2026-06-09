@@ -200,36 +200,32 @@ This yields a planetary-scale, real-time, fractal spacetime reconstruction.
 ## 6. Path to MVP
 
 ###### Phase 1 — Foundations
-
- - Implement Ω prefix generator (u8-only)
- - ECC encode/decode tables
- - PID temporal LUTs
+- Implement Ω prefix generator (u8-only)
+- ECC encode/decode tables
+- PID temporal LUTs
 
 ###### Phase 2 — Spatial Engine
-
- - 3D voxel grid
- - IFS contractive maps
- - Morton indexing
+- 3D voxel grid
+- IFS contractive maps
+- Morton indexing
 
 ###### Phase 3 — TST Integration
-
- - PRE → geometric constraints
- - PERI → volumetric fields
- - POST → animation/time gating
+- PRE → geometric constraints (governed by **Envoy** Layer 7 boundaries)
+- PERI → volumetric fields (persisted in **FollowDB** Layer 5 schemas)
+- POST → animation/time gating (synchronized with **CanorOS** Layer 2 Larmor-clocks)
 
 ###### Phase 4 — GIS Integration
-
- - Global sensor ingestion
- - Earth-centric coordinate transforms
- - Real-time event fusion
+- Global sensor ingestion (interfacing with physical IoT sensors at Layer 1)
+- Earth-centric coordinate transforms
+- Real-time event fusion
 
 ###### Phase 5 — Rendering
+- Temporal slices
+- Fractal cosmology viewer
+- Planetary quantum field overlays (generating dataset tokens for **Digital Nomadica** Layer 8)
 
- - Temporal slices
- - Fractal cosmology viewer
- - Planetary quantum field overlays
+---
 
-## 7. Conclusion
 
 This whitepaper presents a fundamentally new computational ontology for physics:
 

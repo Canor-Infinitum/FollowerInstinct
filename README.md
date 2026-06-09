@@ -6,18 +6,39 @@ This project is part of the **Canor Infinitum FOSS Projects** and is licensed un
 ---
 
 ## Ecosystem Integration
-FollowerInstinct™ provides the operational scaffolding and quantum sensing library for the CanorOS vibe-coding ecosystem. It implements the "Theory of Everything is Now" (Ω-driven events + ECC validation + PID temporal geometry), acting as the runtime coordinator that translates physical sensor streams (such as LIGO and JWST datasets) into active TST/BBST volumetric spaces. It operates under AetherAI code directives and is guarded by Envoy anticheat checks.
+
+FollowerInstinct™ provides the operational scaffolding and quantum sensing library for the **CanorOS** vibe-coding ecosystem. It implements the "Theory of Everything is Now" (Ω-driven events + ECC validation + PID temporal geometry), acting as the runtime coordinator that translates physical sensor streams into active TST/BBST volumetric spaces.
+
+```
++-------------------------------------------------------------------+
+|                         ECONOMIC LAYER                            |
+|                 Digital Nomadica™ (Marketplace)                   |
++-------------------------------------------------------------------+
+|                         SECURITY LAYER                            |
+|                   Envoy™ (Execution Governance)                   |
++-------------------------------------------------------------------+
+|                        INFERENCE LAYER                            |
+|             FollowerInstinct™ (Math/Physics Engine)               |
++-------------------------------------------------------------------+
+|                          DATA LAYER                               |
+|            FollowDB™ (Temporal & Semantic Persistence)            |
++-------------------------------------------------------------------+
+|                          LOGIC LAYER                              |
+|          Follow™ (Reactive/Symbolic Meta-Programming)             |
++-------------------------------------------------------------------+
+|                          AGENT LAYER                              |
+|            AetherAI™ / OverlayAI™ (Agent Runtime)                 |
++-------------------------------------------------------------------+
+|                           OS LAYER                                |
+|           CanorOS™ (AI-first Real-Time Operating System)          |
++-------------------------------------------------------------------+
+|                         PHYSICAL LAYER                            |
+|             IoT Sensors / Embedded & Quantum Sensors              |
++-------------------------------------------------------------------+
+```
 
 ---
 
-Takes **AdvancedLIGO-Datasets** & **JWST-Datasets**, plus both an in-house **Quantum Gravity (QG) Model** and an in-house **Theory of Everything (ToE)**, and produces a **Volumetric Spacetime-Animation/Visualization/Render** over **Omega Number-Approximations** of *ECC-Validated Quantum Events*.
-
-## Follow™-Frameworks
-
-Packaged with an in-house Quantum Gravity Turing-Computing & Communication Observation/Storage/Learning/Operational Engine:
- - A direct implementation of the Quantum Gravity Engine with "Diffeomorphic Quantum Gravity" & "Theory of Everything is Now" as its default Quantum Gravity Theory of Everything.
-
----
 
 ## Why?
 
